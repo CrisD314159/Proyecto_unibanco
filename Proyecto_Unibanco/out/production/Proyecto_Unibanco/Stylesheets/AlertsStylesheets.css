@@ -1,0 +1,17 @@
+.root {
+    -fx-background: linear-gradient(to bottom left, #9F1DF5 55%, #FD5A03);
+    -fx-font-family: "Arial Hebrew";
+}
+
+.button {
+    -fx-background-color: #926bea;
+    -fx-text-fill: #eed999;
+    -fx-border-radius: 7px;
+}
+
+.button:hover {
+    -fx-background-color: #c71e9a;
+}
+.label{
+    -fx-text-fill: #eed999;
+}

@@ -1,0 +1,31 @@
+AnchorPane{
+    -fx-background: linear-gradient(to bottom right, #9F1DF5, #FD5A03);
+    -fx-font-family:"Arial Hebrew" ;
+
+
+}
+.label{
+    -fx-text-fill:#eed999;
+    -fx-font: 22px;
+}
+
+.button{
+    -fx-background-color: #926bea;
+    -fx-text-fill: #eed999;
+    -fx-border-radius: 7px;
+
+
+}
+.button:hover{
+    -fx-background-color: #c71e9a;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+
+
+}
+
+.text-field{
+    -fx-border:none;
+    -fx-border-color: #eed999;
+    -fx-background-color: transparent;
+}
+
