@@ -27,5 +27,7 @@ AnchorPane{
     -fx-border:none;
     -fx-border-color: #eed999;
     -fx-background-color: transparent;
+    -fx-text-fill:#eed999;
+    -fx-border-radius: 20px;
 }
 

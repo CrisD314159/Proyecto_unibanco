@@ -19,10 +19,10 @@
       <Label layoutX="75.0" layoutY="286.0" text="Hora:" />
       <Label layoutX="76.0" layoutY="330.0" text="Tipo:" />
       <Button layoutX="169.0" layoutY="396.0" mnemonicParsing="false" onAction="#volverInicioAction" text="Aceptar" />
-      <TextField fx:id="referenciaField" layoutX="184.0" layoutY="151.0" />
-      <TextField fx:id="montoField" layoutX="184.0" layoutY="201.0" />
-      <TextField fx:id="fechaField" layoutX="184.0" layoutY="244.0" prefHeight="26.0" prefWidth="160.0" />
-      <TextField fx:id="horaField" layoutX="184.0" layoutY="282.0" />
-      <TextField fx:id="tipoField" layoutX="184.0" layoutY="326.0" />
+      <TextField fx:id="referenciaField" editable="false" layoutX="184.0" layoutY="151.0" />
+      <TextField fx:id="montoField" editable="false" layoutX="184.0" layoutY="201.0" />
+      <TextField fx:id="fechaField" editable="false" layoutX="184.0" layoutY="244.0" prefHeight="26.0" prefWidth="160.0" />
+      <TextField fx:id="horaField" editable="false" layoutX="184.0" layoutY="282.0" />
+      <TextField fx:id="tipoField" editable="false" layoutX="184.0" layoutY="326.0" />
    </children>
 </AnchorPane>
