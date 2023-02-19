@@ -70,7 +70,11 @@ public class CrearCuentaController implements Initializable {
 
 
     }
-
+    /**
+     * Este método genera un alerta flotante
+     * @param
+     * @param
+     */
     private boolean verificarCampos(String nombre, String apellido, String cedula, String direccion, String email) {
         if(nombre.equals("")){
             return false;

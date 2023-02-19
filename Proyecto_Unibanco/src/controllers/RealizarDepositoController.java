@@ -61,7 +61,11 @@ public class RealizarDepositoController {
         }
 
     }
-
+    /**
+     * Este método genera un alerta flotante
+     * @param
+     * @param
+     */
     private void invocarAlerta(String mensaje, String header) {
         Alert alerta= new Alert(Alert.AlertType.INFORMATION);
         alerta.setHeaderText(header);

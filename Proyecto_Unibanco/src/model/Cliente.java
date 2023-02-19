@@ -105,6 +105,11 @@ public class Cliente {
         return false;
     }
 
+    /**
+     * este metodo obtiene una transacción por su número de referencia
+     * @param referencia
+     * @return
+     */
     public Transaccion obtenerTransaccion(int referencia) {
         for(Transaccion transaccion : listaTransacciones){
             if(transaccion.getReferencia()== referencia){
@@ -114,6 +119,10 @@ public class Cliente {
         return null;
     }
 
+    /**
+     * Este método elimina una transacción por su número de cuenta
+     * @param referencia
+     */
     public void eliminarTransaccion(int referencia) {
         for(Transaccion transaccion : listaTransacciones){
             if(transaccion.getReferencia()== referencia){
@@ -122,6 +131,12 @@ public class Cliente {
         }
     }
 
+    /**
+     * Este método permite retirar el dinero acorde al monto
+     * @param nCuenta
+     * @param monto
+     * @return
+     */
     public boolean retirarDinero(int nCuenta, double monto) {
         double saldo = cuentaAsociada.getSaldo();
         double nuevoSaldo= 0;
@@ -136,6 +151,12 @@ public class Cliente {
         return false;
     }
 
+    /**
+     * Este método permite depositar dinero a la cuenta según el monto dado
+     * @param nCuenta
+     * @param monto
+     * @return
+     */
     public boolean depositarDinero(int nCuenta, double monto) {
         double saldo = cuentaAsociada.getSaldo();
         double nuevoSaldo= 0;
@@ -151,6 +172,10 @@ public class Cliente {
         return false;
     }
 
+    /**
+     * Este método obtiene el saldo de la cuenta
+     * @return
+     */
     public double consultarSaldo() {
         return cuentaAsociada.getSaldo();
     }

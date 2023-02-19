@@ -49,6 +49,11 @@ public class ConsultarSaldoController {
         }
     }
 
+    /**
+     * Este método genera un alerta flotante
+     * @param mensaje
+     * @param header
+     */
     private void invocarAlerta(String mensaje, String header) {
         Alert alerta= new Alert(Alert.AlertType.INFORMATION);
         alerta.setHeaderText(header);
@@ -59,6 +64,12 @@ public class ConsultarSaldoController {
         alerta.showAndWait();
     }
 
+    /**
+     * Este metodo verifica que los campos estén correctos
+     * @param nCuenta
+     * @param cedula
+     * @return
+     */
     private boolean verificarCampos(int nCuenta, String cedula) {
         if(nCuenta == 0){
             return false;

@@ -38,6 +38,10 @@ public class ReciboTransaccionController {
         this.main= main;
     }
 
+    /**
+     * Este método permite mostrar una transacción al usuario en forma de factura
+     * @param deposito
+     */
     public void enviarTransaccion(Transaccion deposito) {
         int referencia = deposito.getReferencia();
         double monto = deposito.getValor();
